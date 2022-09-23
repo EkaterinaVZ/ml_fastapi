@@ -62,4 +62,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/cube_project:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/kube_project:latest
