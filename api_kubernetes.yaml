@@ -5,7 +5,7 @@ metadata:
   labels:
     app: api-mask
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: api-mask
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: api-mask
-        image: artprojectt/cube_project
+        image: artprojectt/kube_project
         ports:
         - containerPort: 8000
 ---
